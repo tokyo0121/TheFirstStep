@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="「文系出身。全くプログラミングをやったことがない。」
+  そんなプログラミング初心者のための、プログラミング初心者によるサイトです。一緒に「はじめの一歩」を踏み出しましょう。">
+  <title>はじめの一歩</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="./index.html">
+          <img class="logo" src="./1_removebg_w.png">
+          </a>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+
+        <div class="header-right">
+          <a href="./index.html">Topへ</a>
+        </div>
+      </div>
+    </header>
+    <div class="section_wrapper">
+      <div class="container">
+        <div class="first_lesson lesson_title">
+          <h1>HTMLってなに？</h1>
+        </div>
+        <div class="section first_section">
+          <p class="text">HTMLとは、Webページを作るためのコンピュータ言語で、<br>
+            簡単に言うと、<span class="span_first">コンピューターが理解できるように、文章の構成を指示するための言葉</span>です。<br>
+            コンピューターさんは英語も日本語もわからないので、HTMLという言語を使って「この文章はタイトルだよ！」「ここの3つの文章は1セットだよ！」といった風に教えてあげるのです。
+            例えば、こんな文章をWebページに載せたいと思います。<br></p>
+          <p class="frame frame_first">ニュース<br><br>なんと！梅子先生がお札になります！</p>
+          <p class="text">この文章の構成は、こんな感じになります。</p>
+          <p class="frame frame_first"><見出し>ニュース<見出し><br><br><本文>なんと！梅子先生がお札になります！<本文></p>
+          <p class="text">これを、HTMLを使って文章構成しなおしてみると、こんな感じになります。</p>
+          <p class="frame frame_first">&lt;h1&gt;ニュース&lt;/h1&gt;<br><br>&lt;p&gt;なんと！梅子先生がお札になります！&lt;/p&gt;</p>
+          <p class="text">こう書くと、&lt;h1&gt;で囲まれている部分が見出し、&lt;p&gt;で囲まれた部分が本文であることをコンピューターさんが認識してくれて、見出しは大きめの文字で、本文は小さめの文字で表示してくれます。
+          もちろん、好みの大きさに変更することもできますが、それについてはCSSの方で説明しますね。<br><br></p>
+          <p class="text">実は、私たちが普段から見ているWebページもHTMLでできていて、これを見ることもできます！例えば、みなさんが今見ているこの画面を右クリックしてみてください。
+            すると、英語設定の場合は「View Page Source」日本語設定の場合は「ソースを表示」と出てくるはずなので、そこを押してみましょう。</p>
+          <img class="img img_first" src="./first_step/1_1.png">
+          <p class="text">じゃん！こんな感じの画面が出てきませんか？この英語と数字で細々と書かれているのがHTMLです！<br></p>
+          <img class="img img_first" src="./first_step/1_2.png">
+          <p class="text">私たちがレシピを見て、どんな具材や調味料を使うのかを確認してから、料理をするのと同じで、<br>
+          みなさんが使っているChromeやSafariなどのブラウザは、このながーい文章を読み込んで、どんな構成のサイトを表示するのかを判断しているのです。<br><br>
+          HTMLなどの言葉を使って、英単語や記号を組み合わせて書いた、コンピュータが読める文章を、<span class="span_first">「コード」</span>や<span class="span_first">「ソースコード」</span>と言います。これから何度も登場するので覚えておきましょう！</p>
+        </div>
+      </div>
+      <div class="back_btn first_back">
+        <a href="./first_menu.html">
+        <p>メニューにもどる</p></a>
+      </div>
+    </div>
+    <footer>
+     <div class="container">
+       <img src="./1_removebg_b.png">
+     </div>
+   </footer>
+  </body>
+</html>

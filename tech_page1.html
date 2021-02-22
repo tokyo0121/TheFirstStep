@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="「文系出身。全くプログラミングをやったことがない。」
+  そんなプログラミング初心者のための、プログラミング初心者によるサイトです。一緒に「はじめの一歩」を踏み出しましょう。">
+  <title>はじめの一歩</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="./index.html">
+          <img class="logo" src="./1_removebg_w.png">
+          </a>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+
+        <div class="header-right">
+          <a href="./index.html">Topへ</a>
+        </div>
+      </div>
+    </header>
+    <div class="section_wrapper">
+      <div class="container">
+        <div class="tech_lesson lesson_title">
+          <h1>段落と改行</h1>
+        </div>
+        <div class="section tech_section">
+          <p class="text">文字のデザインに入る前に、まず段落と改行について抑えておきましょう。</p>
+          <p class="text">まず、文章の段落を指示するためには、<span class="span_tech">&lt;p&gt;</span>というタグを使います。
+          このタグは、レイアウトに使われることはあまりないものの、おそらく最も使う頻度の高いタグの1つです！
+          段落の始まりから終わりまでを、</p>
+          <p class="frame frame_tech">&lt;p&gt;なんと！梅子先生がお札になります！&lt;/p&gt;</p>
+          <p class="text">こんな感じで囲みます。&lt;p&gt;の中には、ページの中心となるコンテンツを入れられる他、
+            これから紹介する改行や、強調部分などのテキストを装飾するタイプのタグを使うことができます。</p>
+          <p class="text"><br>続いて改行です。改行について、私は２通りのやり方を使い分けているので、どちらもご紹介させていただきますね。</p>
+          <p class="text">まず、<span class="span_tech">&lt;br&gt;</span>を使ってみましょう！
+            これは、改行したい部分に<span class="span_tech">&lt;br&gt;</span>を入れるだけでOKです。
+            この&lt;br&gt;タグは、基本的には段落の区切りで文章を改行する時には使われず、
+            一段落の中で、改行した方がわかりやすい場合に使うことがほとんどです！
+            見出しにサブタイトルをつけたい時などにも使えそうですね！</p>
+          <p class="text">さて、2つ目は<span class="span_tech">&lt;p&gt;を分けて使う方法</span>です。<br>
+          「え...？&lt;p&gt;って段落じゃないの？」...そう思った方！正解です◯<br>
+          実はこの&lt;p&gt;は、デフォルトで上下に1emのmargin（外側の余白）が空くように設定されているのです！
+          なので、段落を分けたい時には、段落ごとに&lt;p&gt;を使えばOKなのです。便利ですね！</p>
+          <p class="text">では早速、こちらの文章を改行して読みやすくしましょう！</p>
+          <p class="frame frame_tech">なんと！梅子先生がお札になります！
+          2024年から発行される新5000円札の肖像に津田梅子先生が選ばれました！
+          お財布を開けるたびに梅子先生に会えたら、とても気が引き締まりそうです！</p>
+          <p class="text">こんな感じでコードを描いてみました。</p>
+          <p class="frame frame_tech">&lt;p&gt;なんと！梅子先生がお札になります！&lt;/p&gt;<br>
+          &lt;p&gt;2024年から発行される新5000円札の肖像に津田梅子先生が選ばれました！&lt;br&gt;
+          お財布を開けるたびに梅子先生に会えたら、とても気が引き締まりそうです！&lt;/p&gt;</p>
+          <p class="text">これを実行してみると...</p>
+          <img class="img img_tech" src="./technique/1_1.png">
+          <p class="text">読みやすくなりましたね！</p>
+          <p class="text">こんな風に改行を使い分けて、より読みやすいページを作れるように頑張りましょう！私も頑張ります！</p>
+      </div>
+    </div>
+    <div class="back_btn tech_back">
+      <a href="./tech_menu1.html">
+      <p>メニューにもどる</p></a>
+    </div>
+    </div>
+    <footer>
+     <div class="container">
+       <img src="./1_removebg_b.png">
+     </div>
+   </footer>
+  </body>
+</html>

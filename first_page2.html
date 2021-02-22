@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="「文系出身。全くプログラミングをやったことがない。」
+  そんなプログラミング初心者のための、プログラミング初心者によるサイトです。一緒に「はじめの一歩」を踏み出しましょう。">
+  <title>はじめの一歩</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="./index.html">
+          <img class="logo" src="./1_removebg_w.png">
+          </a>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+
+        <div class="header-right">
+          <a href="./index.html">Topへ</a>
+        </div>
+      </div>
+    </header>
+    <div class="section_wrapper">
+      <div class="container">
+        <div class="first_lesson lesson_title">
+          <h1>CSSってなに？</h1>
+        </div>
+        <div class="section first_section">
+          <p class="text">CSSとは、Webページのデザインやレイアウトを組み立てるための言語で、<br>
+          簡単にいうと、コンピューターが理解できるように、<span class="span_first">HTMLで指定した文章構造を装飾をするための言葉</span>です。
+          HTMLは文章の構造を指定することはできますが、文字の大きさを変えたり、背景に色をつけたりすることはできません。
+          そこで、Webページの装飾担当が必要！ということで、CSSの登場です。</p>
+          <p class="text">例えば、このHTMLで書かれた文章を装飾することにしましょう。</p>
+          <p class="frame frame_first">&lt;h1&gt;ニュース&lt;/h1&gt;<br><br>&lt;p&gt;なんと！梅子先生がお札になります！&lt;/p&gt;</p>
+          <p class="text">このコードを、そのままWebページとして表示すると、こんな感じになります。</p>
+          <img class="img img_first" src="./first_step/2_1.png">
+          <p class="text">うーん、悪くないけど、、地味ですよね。ここで装飾担当に注文してみましょう！<br></p>
+          <p class="text">「じゃあ、<span class="span_first">背景は薄いピンク</span>で、<span class="span_first">文字は白</span>！あ、やっぱり<span class="span_first">見出しだけ濃いピンク</span>にして！」
+          <br>これをCSSで書くとこんな感じになります。</p>
+          <p class="frame frame_first">body{color: #fff;&#160;&#160;&#160;/*文字色を白*/
+            <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;background-color: #f5bfd6;&#160;&#160;&#160;/*背景を薄いピンク*/}
+            <br><br>h1{color: #c9375f;&#160;&#160;&#160;/*見出しを濃いピンク*/}</p>
+          <p class="text">これを実行してみると...</p>
+          <img class="img img_first" src="./first_step/2_2.png">
+          <p class="text">わぁー！だいぶ華やかになりましたね！<br>
+          こんな感じで、HTMLにCSSを反映させることによって、綺麗なデザインのページを作ることができます！</p>
+          <p class="text">HTMLとCSSはどちらもWebページを形成するものですが、役割が違います。<br>
+            彼らはいつも一緒にいるので、「HTML/CSS」と表示されることが多いです。つまり、<br>
+            <span class="span_first">Webページ = HTML（構造）＋ CSS（装飾）</span><br>
+          ってことです！HTMLとCSSは相棒なんですね！</p>
+          <p class="text">CSSを使うことによって、より見やすいページを作成することができます。
+            ここでは色の変更のみ紹介しましたが、他にも文字の大きさを変えたり、枠で囲ったり...他の様々な装飾の仕方については<a class="jump_technique" href="./technique_menu.html">テクニック</a>の方で紹介しています。
+          ぜひ参考にしてくださいね！</p>
+        </div>
+      </div>
+      <div class="back_btn first_back">
+        <a href="./first_menu.html">
+        <p>メニューにもどる</p></a>
+      </div>
+    </div>
+    <footer>
+     <div class="container">
+       <img src="./1_removebg_b.png">
+     </div>
+   </footer>
+  </body>
+</html>
