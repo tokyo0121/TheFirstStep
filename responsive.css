@@ -1,0 +1,246 @@
+/*タブレット向けレイアウト*/
+@media all and (max-width: 1025px) {
+  .lesson{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  .top-wrapper h1{
+    font-size: 57px;
+  }
+
+  .top-wrapper h1 span{
+    font-size: 32px;
+  }
+
+  .top-wrapper h2{
+    font-size: 32px;
+  }
+
+  .heading h2{
+    font-size: 20px;
+  }
+
+  .info-wrapper{
+    width: 600px;
+  }
+
+  table{
+    width: 550px;
+  }
+
+  .creator_page h1{
+    font-size: 70px;
+    padding-left: 70px;
+  }
+
+  .creator_text{
+    width: 90%;
+    padding: 20px;
+  }
+
+  .creator_about{
+    width: 85%;
+    padding: 20px 30px;
+    font-size: 13.5px;
+  }
+  .back_btn1 p{
+    padding: 10px;
+  }
+  .back_btn2 p{
+    padding: 10px;
+  }
+
+  .menu_box{
+    width: 45%;
+    margin: 10px;
+  }
+  .clear_box{
+    clear: none;
+  }
+
+  .frame{
+    width: 700px;
+  }
+}
+
+/*スマホ向けレイアウト*/
+@media all and (max-width: 670px) {
+  .lesson{
+    width: auto;
+  }
+
+  .lesson-icon img{
+    width: 90%;
+    margin-left: none;
+  }
+  .lesson-icon p{
+    font-size: 24px;
+  }
+
+  .header-right{
+    font-size: 12px;
+  }
+
+  .top-wrapper{
+    width: 100%;
+  }
+
+  .top-wrapper h1{
+    font-size: 32px;
+  }
+
+  .top-wrapper h1 span{
+    font-size: 22px;
+  }
+
+  .top-wrapper h2{
+    font-size: 20px;
+  }
+
+  .title{
+    width: 90%;
+    height: 270px;
+    margin-top: 40px;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
+  .info-wrapper{
+    width: 100%;
+  }
+
+  table{
+    width: 90%;
+  }
+
+  .contact-wrapper{
+    width: auto;
+  }
+
+  .contact{
+    width: 250px;
+  }
+
+  .contact-wrapper{
+    font-size: 11px;
+  }
+
+  .form_text{
+    font-size: 9px;
+  }
+
+  .request_form{
+    width: 85%;
+  }
+
+  .inquiry_form{
+    width: 85%;
+  }
+
+  .creator_page h1{
+    font-size: 51px;
+    padding-left: 20px;
+  }
+
+  .creator_text{
+    width: 92%;
+    padding: 25px;
+  }
+
+  .creator_about{
+    width: 100%;
+    padding: 20px;
+    font-size: 12px;
+  }
+
+  .coming_soon{
+    width: 100%;
+  }
+
+  .coming_soon h2{
+    font-size: 17px;
+  }
+
+  .back_btn1{
+    width: 70%;
+    height: auto;
+    font-size: 21px;
+  }
+
+  .back_btn2{
+    width: 70%;
+    height: auto;
+    font-size: 21px;
+  }
+  .back_btn1 p{
+    padding: 5px;
+  }
+  .back_btn2 p{
+    padding: 5px;
+  }
+
+  .menu_wrapper{
+    height: 550px;
+  }
+  .menu_title_first h1{
+    font-size: 40px;
+  }
+  .menu_title_first p{
+    font-size: 30px;
+    margin-top: -35px;
+  }
+  .menu_box{
+    width: 80%;
+    margin: 10px 30px;
+    float: none;
+  }
+  .menu_box p{
+    padding: 10px;
+  }
+  .menu_title_tech h1{
+    font-size: 43px;
+  }
+  .menu_title_tech p{
+    font-size: 45px;
+    margin-top: -45px;
+  }
+  .menu_title_cha h1{
+    font-size: 43px;
+  }
+  .menu_title_cha p{
+    font-size: 45px;
+    margin-top: -45px;
+    padding-right: 0;
+  }
+  .clear_box{
+    clear: none;
+  }
+
+  .lesson_title h1{
+    font-size: 40px;
+  }
+  .section{
+    font-size: 15px;
+  }
+  .img{
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .frame{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+  }
+  .back_btn{
+    width: 300px;
+  }
+}

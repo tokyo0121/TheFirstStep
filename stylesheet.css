@@ -1,0 +1,681 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Arial,'ＭＳ Ｐゴシック',sans-serif ;
+}
+
+a{
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper{
+  height: 700px;
+  padding: 180px 0 100px 0;
+  background-image: url(./index.jpg);
+  opacity: 0.9;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  text-align: left;
+  font-size: 68px;
+  letter-spacing: 5px;
+  text-shadow: 4px 3px 3px #4b4b4b;
+}
+
+.top-wrapper h1 span{
+  font-size: 35px;
+}
+
+.top-wrapper h2{
+  text-align: left;
+  font-size: 35px;
+  padding-top: 20px;
+  text-shadow: 4px 3px 3px #4b4b4b;
+}
+
+.top-wrapper p{
+  opacity: 0.7;
+}
+
+.title{
+  border: solid 6px;
+  width: 60%;
+  height: 400px;
+  padding-left: 15px;
+}
+
+.kr h2{
+  letter-spacing: 10px;
+}
+
+.kr h1{
+  letter-spacing: 15px;
+}
+
+.fa{
+  margin-right: 5px;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(3, 18, 94, 0.86);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo{
+  width: 130px;
+  height: 75px;
+}
+
+.header-left{
+  float: left;
+}
+
+.header-right{
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*menu*/
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.lesson-wrapper{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.heading{
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h3{
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 33%;
+}
+
+.lesson-icon{
+  position: relative;
+}
+
+.lesson img{
+  width: 305px;
+  height: auto;
+  transition: all 0.5s cubic-bezier(.48, .01, .45, 1.9);
+  padding-bottom: 10px;
+}
+
+.lesson img:hover{
+  transform: scale(1.07)rotate(4deg);
+}
+
+.lesson-icon p{
+  position: absolute;
+  font-size: 30px;
+  top: 30%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents{
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #909090;
+}
+
+.heading h2{
+  font-weight: normal;
+}
+
+.infocontact-wrapper{
+  padding: 20px;
+  background-color: rgba(238, 233, 201, 0.19);
+}
+
+.info-wrapper{
+  width: 800px;
+  margin: 30px auto;
+  padding-bottom: 30px;
+  background-color: rgba(224, 203, 129, 0.61);
+  cursor: default;
+}
+
+table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 700px;
+  cursor: default;
+}
+
+table th{
+  font-size: 20px;
+}
+
+table tr{
+  border-bottom: solid 2px #eee;
+  cursor: pointer;
+}
+
+table .type1:hover{
+  background-color: #EBA1A1;
+  opacity: 0.8;
+}
+
+table .type2:hover{
+  background-color: #C8DB7E;
+  opacity: 0.8;
+}
+
+table .type3:hover{
+  background-color: #EFD777;
+  opacity: 0.8;
+}
+
+table th,table td{
+  text-align: center;
+  padding: 15px 0;
+}
+
+.contact-wrapper{
+  width: 600px;
+  height: 100px;
+  margin: 150px auto 50px auto;
+  text-align: center;
+  color: #828282;
+}
+
+.contact{
+  width: 400px;
+  height: auto;
+  font-size: 30px;
+  margin: auto;
+  background-color: rgba(3, 18, 94, 0.86);
+  border-radius: 30px;
+}
+
+.contact a{
+  color: #fff;
+  text-align: center;
+}
+
+.contact a p{
+  padding: 10px 10px;
+}
+
+footer img{
+  width: 190px;
+  height: auto;
+  float: left;
+}
+
+footer{
+  border-top: 2px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*クリエイタールーム*/
+.form{
+  padding-top: 120px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.request_form {
+  width: 430px;
+  height: 50px;
+  font-size: 30px;
+  margin: auto;
+  background-color: #EBA1A1;
+  border-radius: 30px;
+}
+
+.request_form a{
+  color: #fff;
+}
+
+.inquiry_form{
+  width: 430px;
+  height: 50px;
+  font-size: 30px;
+  margin-top: 90px;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: #a1c5eb;
+  border-radius: 30px;
+}
+
+.inquiry_form a{
+  color: #fff;
+}
+
+.form_text{
+  color: #828282;
+}
+
+.creator_page{
+  width: 100%;
+  height: auto;
+  background-color: rgba(238, 233, 201, 0.19);
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.creator_page h1{
+  font-size: 110px;
+  color: rgba(161, 161, 161, 0.83);
+  opacity: 0.4;
+  position: absolute;
+  padding-left: 120px;
+  z-index: 2;
+}
+
+.creator_text{
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding: 40px;
+  text-align: center;
+  background-color: rgba(224, 203, 129, 0.57);
+  z-index: 1;
+  color: #696969;
+}
+
+.creator_about{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 20px 50px;
+  border: 4px double #fff;
+  text-align: left;
+  font-size: 14.2px;
+  color: #7d7d7d;
+}
+
+.creator_icon{
+  margin: 30px;
+  text-align: center;
+}
+
+.creator_icon img{
+  width: 180px;
+  height: 180px;
+  object-fit:cover;
+	border-radius:50%;
+  object-position:-45px 0px;
+}
+
+.creator_icon p{
+  font-size: 30px;
+}
+
+/*coming soon*/
+.coming_soon{
+  height: 600px;
+  padding-top: 100px;
+  text-align: center;
+  background-color: rgba(238, 233, 201, 0.19);
+  font-weight: normal;
+}
+
+.back_btn1{
+  width: 430px;
+  height: auto;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: #a1c5eb;
+  border-radius: 30px;
+}
+
+.back_btn1 a{
+  color: white;
+}
+
+.back_btn1 p{
+  padding: 10px;
+}
+
+.back_btn2{
+  width: 430px;
+  height: auto;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.back_btn2 a{
+  color: white;
+}
+
+.back_btn2 p{
+  padding: 10px;
+}
+
+.first_back{
+  background-color: rgb(3, 18, 94);
+}
+
+.tech_back{
+  background-color: #C8DB7E;
+}
+
+.challenge_back{
+  background-color: #EFD777;
+}
+
+/*はじめの一歩メニュー*/
+.menu_wrapper{
+  width: 100%;
+  height:　auto;
+  background-color: rgba(238, 233, 201, 0.19);
+  padding-top: 70px;
+  padding-bottom: 100px;
+  overflow:hidden;
+}
+
+.menu_title_first h1{
+  font-size: 85px;
+  color: #EBA1A1;
+  text-shadow: 6px 10px 12px rgba(235, 161, 161, 0.51);
+}
+
+.menu_title_first p{
+  font-size: 97px;
+  font-weight: bold;
+  margin-top: -135px;
+  text-align: right;
+  color: rgba(235, 161, 161, 0.21);
+}
+
+.menu_box{
+  width: 30%;
+  height: auto;
+  float: left;
+  text-align: center;
+  margin: 10px 15px;
+}
+
+.menu_box p{
+  padding: 20px 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.clear_box {
+    clear:  both;
+}
+
+.first{
+  border: 4px double #EBA1A1;
+  background-color: rgba(235, 161, 161, 0.1);
+  transition: background 0.5s;
+}
+
+.first p{
+  color: #EBA1A1;
+  transition: color 0.5s;
+}
+
+.first:hover{
+  background-color: #EBA1A1;
+  border: 5px double #fff;
+}
+
+.first p:hover{
+  color: #fff;
+}
+
+/*テクニックメニュー*/
+.menu_title_tech h1{
+  font-size: 85px;
+  color: #C8DB7E;
+  text-shadow: 6px 10px 12px rgba(200, 219, 126, 0.53);
+}
+
+.menu_title_tech p{
+  font-size: 97px;
+  font-weight: bold;
+  margin-top: -135px;
+  text-align: right;
+  color: rgba(200, 219, 126, 0.23);
+}
+
+.tech{
+  border: 4px double #C8DB7E;
+  background-color: rgba(200, 219, 126, 0.05);
+  transition: background 0.5s;
+}
+
+.tech p{
+  color: #bfd569;
+  transition: color 0.5s;
+}
+
+.tech:hover{
+  background-color: #C8DB7E;
+  border: 5px double #fff;
+}
+
+.tech p:hover{
+  color: #fff;
+}
+
+
+
+/*チャレンジメニュー*/
+.menu_title_cha h1{
+  font-size: 90px;
+  color: #EFD777;
+  text-shadow: 6px 10px 12px rgba(238, 215, 119, 0.52);
+}
+
+.menu_title_cha p{
+  font-size: 110px;
+  color: rgba(238, 215, 119, 0.22);
+  font-weight: bold;
+  margin-top: -135px;
+  padding-right: 30px;
+  text-align: right;
+}
+
+.cha{
+  border: 4px double #EFD777;
+  background-color: rgba(238, 215, 119, 0.1);
+  transition: background 0.5s;
+}
+
+.cha p{
+  color: #e2c657;
+  transition: color 0.5s;
+}
+
+.cha:hover{
+  background-color: #EFD777;
+  border: 5px double #fff;
+}
+
+.cha p:hover{
+  color: #fff;
+}
+
+
+/*内容ページ共通レイアウト*/
+.lesson_title h1{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.section{
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 17px;
+  border: dashed 3px white;
+  color: #666666;
+}
+
+.section_wrapper{
+  width: 100%;
+  height:　auto;
+  background-color: rgba(238, 233, 201, 0.19);
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.text{
+  line-height: 40px;
+}
+
+.img{
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.frame{
+  width: 800px;
+  padding: 10px;
+  color: #8b8b8b;
+}
+
+span{
+  font-weight: bold;
+}
+
+.back_btn{
+  width: 430px;
+  height: auto;
+  font-size: 30px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  text-align: center;
+}
+.back_btn a{
+  color: #fff;
+}
+
+.jump_technique{
+  color: #849a2d;
+}
+
+/*はじめの一歩内容ページ*/
+.first_lesson h1{
+  color: #EBA1A1;
+}
+
+.first_lesson{
+  border-bottom: 5px double #EBA1A1;
+}
+
+.first_section{
+  background-color: rgba(235, 161, 161, 0.75);
+  box-shadow: 0px 0px 0px 7px rgba(235, 161, 161, 0.75);
+}
+
+.frame_first{
+  border: 2px solid #EBA1A1;
+  background-color: #ffd5d5;
+}
+
+.span_first{
+  border-bottom: dotted 2px #e86868;
+}
+
+.first_back{
+  background-color: #EBA1A1;
+}
+
+.img_first{
+  border: 5px solid #EBA1A1;
+}
+
+/*テクニック内容ページ*/
+.tech_lesson h1{
+  color: #C8DB7E;
+}
+
+.tech_lesson{
+  border-bottom: 5px double #C8DB7E;
+}
+
+.tech_section{
+  background-color: rgba(200, 219, 126, 0.75);
+  box-shadow: 0px 0px 0px 7px rgba(200, 219, 126, 0.75);
+}
+
+.frame_tech{
+  border: 2px solid #C8DB7E;
+  background-color: #ebf6bf;
+}
+
+.span_tech{
+  border-bottom: dotted 2px #829c1e;
+}
+
+.tech_back{
+  background-color: #C8DB7E;
+}
+
+.img_tech{
+  border: 5px solid #C8DB7E;
+}
