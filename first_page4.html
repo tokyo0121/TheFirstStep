@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="「文系出身。全くプログラミングをやったことがない。」
+  そんなプログラミング初心者のための、プログラミング初心者によるサイトです。一緒に「はじめの一歩」を踏み出しましょう。">
+  <title>はじめの一歩_lesson4</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="./index.html">
+          <img class="logo" src="./1_removebg_w.png">
+          </a>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+
+        <div class="header-right">
+          <a href="./index.html">Topへ</a>
+        </div>
+      </div>
+    </header>
+    <div class="section_wrapper">
+      <div class="container">
+        <div class="first_lesson lesson_title">
+          <h1>CSSの基本構造</h1>
+        </div>
+        <div class="section first_section">
+          <p class="text">さぁ、CSSの番です！HTMLよりCSSの方が文法はずっとシンプルな気がするので頑張りましょう！</p>
+          <p class="text">さて、CSSの中身はだいたいこんな感じです。この枠や線の色ごとに説明していきますね。</p>
+          <img class="img img_first" src="./first_step/4_1.png">
+          <p class="text bold">・セレクタ・</p>
+          <p class="text">赤枠で囲んだ箇所、どこかで見たことありませんか？<br>
+          そうです、HTMLの要素の名前です！この部分のことを<span class="span_first">セレクタ</span>と言ってCSSを反映させたい範囲をここで指定できます。
+          今回の場合は、HTMLにある<span class="span_first">h1</span>要素全てを選択するタイプセレクタというセレクタを使用しています。
+          セレクタにも色々種類があるので、うまく使い分けられるようになれば効率的且効果的にデザインできますよ！</p>
+          <p class="text bold">・宣言ブロック・</p>
+          <p class="text">青枠で囲まれた部分のことを<span class="span_first">宣言ブロック</span>といいます。ここでは要素に追加したい値などを必要なだけ追加することができ、
+            必ず中括弧（{}）で囲みます。</p>
+          <p class="text bold">・プロパティと値・</p>
+          <p class="text">宣言ブロックの中の黄色とオレンジの下線が引いてある箇所に注目です！<br>
+            この２箇所は一心同体、主語述語の関係です！黄色の部分で<span class="span_first">「何が」</span>、オレンジの部分で<span class="span_first">「どうする」</span>を指定しています。
+          例えば上で示した画像の場合は、font-sizeが18px、つまりフォントのサイズを18pxにする、という指示を出しています。<br>
+        この黄色の部分を<span class="span_first">プロパティ</span>、オレンジの部分を<span class="span_first">値</span>と呼びます。
+        プロパティの直後にコロン、値の直後にセミコロンを書くことを忘れないでくださいね！</p>
+        <p class="text bold">・ルール・</p>
+        <p class="text">最後に、全体を白く囲んだ部分についてです。<br>
+        セレクタと宣言ブロックをまとめて<span class="span_first">ルール</span>と呼びます。
+        このルールという言葉は開発する上でほとんど使われることはないと思うので、覚える必要もないかなと思いますが、CSSはこのルールを複数作成することで成り立っています！</p>
+        <p class="text"><br>プロパティはある程度決まったものがあるので、CSSは慣れてしまえばとても簡単だと思います！
+        どんどん練習して、理想のデザインが作れるように、一緒に頑張りましょう！</p>
+        </div>
+      </div>
+      <div class="back_btn first_back">
+        <a href="./first_menu.html">
+        <p>メニューにもどる</p></a>
+      </div>
+    </div>
+    <footer>
+     <div class="container">
+       <img src="./1_removebg_b.png">
+     </div>
+   </footer>
+  </body>
+</html>

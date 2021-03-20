@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="「文系出身。全くプログラミングをやったことがない。」
+  そんなプログラミング初心者のための、プログラミング初心者によるサイトです。一緒に「はじめの一歩」を踏み出しましょう。">
+  <title>はじめの一歩_lesson5</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="./index.html">
+          <img class="logo" src="./1_removebg_w.png">
+          </a>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+
+        <div class="header-right">
+          <a href="./index.html">Topへ</a>
+        </div>
+      </div>
+    </header>
+    <div class="section_wrapper">
+      <div class="container">
+        <div class="first_lesson lesson_title">
+          <h1>【HTML】要素の種類</h1>
+        </div>
+        <div class="section first_section">
+          <p class="text">さて、基本的な構造がわかってきたところで、HTMLの家族構成を見ていきましょう！</p>
+          <p class="text">「ん？」となってますね？実はHTMLの要素は家族関係に例えるととても理解しやすいんです。こちらの画像をご覧ください↓</p>
+          <img class="img img_first" src="./first_step/5_1.png">
+          <p class="text">なんとなく理解できそうですか？<br>
+          ある要素から見て、すぐ上の、頭１つ出た要素を<span class="span_first">親要素</span>、
+          逆にある要素から見てすぐ下の要素を<span class="span_first">子要素</span>と呼びます！この親子関係はCSSでも利用することが今後何度もあると思うので、
+          ぜひ意識してコーディングしていきましょう！</p>
+          <p class="text">ちなみに、緑色の縁がついた部分、頭の位置が揃っていますよね。この子たちは<span class="span_first">兄弟要素</span>と呼ばれています。
+          例えば上の図でいうと、「はじめの一歩」の兄弟は「テクニック」と「チャレンジ」です。「テクニック」にとって「はじめの一歩」は兄要素、「チャレンジ」は弟要素になります。
+          また、「はじめの一歩」と「テクニック」のようにすぐ隣にいる兄弟たちのことを<span class="span_first">隣接要素</span>と呼ぶこともあります。
+          CSSで利用できるとはいえ、頻出ではないのでさらっと流しておきましょう^^</p>
+          <p class="text">ではこの兄弟たちと親はどういう関係なのでしょう？こちらの画像をご覧ください↓</p>
+          <img class="img img_first" src="./first_step/5_2.png">
+          <p class="text">兄弟要素から見て「親要素の親要素」は<span class="span_first">祖先要素</span>、
+          また、祖先要素にとって「子要素の子要素」は<span class="span_first">子孫要素</span>といいます。
+          これは何世代続いていても、つまりおじいちゃんもひいおじいちゃんもみんな祖先要素と呼ばれるし、孫もひ孫もみんな子孫要素と呼ばれます。</p>
+          <p class="text"><br>これでだいぶHTMLを書く準備ができてきましたね！
+            最後に<span class="span_first">空要素</span>と呼ばれる終了タグのない、つまりサンドウィッチにしなくて良い要素をいくつか紹介して今回は終わります！</p>
+          <p class="text"><span class="bold">&lt;img&gt;</span>：画像を挿入する<br>
+          <span class="bold">&lt;br&gt;</span>：改行する<br>
+          <span class="bold">&lt;link&gt;</span>：関連するファイルにリンクする<br>
+          <span class="bold">&lt;input&gt;</span>：テキストボックスなどフォーム部品を追加する</p>
+          <p class="text"><br>ここだけの話、中の人は説明を文字にするのがとても苦手なので、わかりにくいと感じることも多々あると思います。
+            そんな時は気軽に質問など送ってくださいね！一緒に頑張りましょう！<a href="./creator.html" class="jump_first bold">Creator's Room</a>でお待ちしてます！</p>
+        </div>
+      </div>
+      <div class="back_btn first_back">
+        <a href="./first_menu.html">
+        <p>メニューにもどる</p></a>
+      </div>
+    </div>
+    <footer>
+     <div class="container">
+       <img src="./1_removebg_b.png">
+     </div>
+   </footer>
+  </body>
+</html>

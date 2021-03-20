@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="「文系出身。全くプログラミングをやったことがない。」
+  そんなプログラミング初心者のための、プログラミング初心者によるサイトです。一緒に「はじめの一歩」を踏み出しましょう。">
+  <title>はじめの一歩_lesson3</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="./index.html">
+          <img class="logo" src="./1_removebg_w.png">
+          </a>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+
+        <div class="header-right">
+          <a href="./index.html">Topへ</a>
+        </div>
+      </div>
+    </header>
+    <div class="section_wrapper">
+      <div class="container">
+        <div class="first_lesson lesson_title">
+          <h1>HTMLの基本構造</h1>
+        </div>
+        <div class="section first_section">
+          <p class="text">HTMLが何かわかったところで、どんな構造をしているのか見ていきましょう。<br>
+          ただ、この解説を読むだけでは「へぇ...だから何？」となってしまうと思うので、さらっと読んで次のステップにいきましょう！また戻ってくれば大丈夫です^^</p>
+          <p class="text">さて、HTMLの中身はだいたいこんな感じになっています。</p>
+          <img class="img img_first" src="./first_step/3_1.png">
+          <p class="text">HTMLの基本構造として、今回はDOCTYPE宣言、html要素、head要素、title要素、body要素の5つを順番に見ていきましょう！</p>
+          <p class="text bold">・DOCTYPE宣言・</p>
+          <p class="frame frame_first">&lt;!DOCTYPE html&gt;</p>
+          <p class="text">この部分は「これから書く言語はHTMLでござる」と宣言を出しています。
+            <br>要素（HTMLの中身を指示する部分）ではないんですねぇ、以上です。次いきましょう！</p>
+          <p class="text bold">・html要素・</p>
+          <p class="frame frame_first">&lt;html&gt;<br><br>&lt;/html&gt;</p>
+          <p class="text">例えるなら、大きなサンドウィッチの1番外側のバンズです！
+          <br>この後紹介するHTMLの要素全て、このhtml要素の中に書きます。このページがHTMLで書かれた文書であることを表してくれます！</p>
+          <p class="text bold">・head要素・</p>
+          <p class="frame frame_first">&lt;head&gt;<br><br>&lt;/head&gt;</p>
+          <p class="text">この部分では、このHTMLページのメタデータ、つまりページに含まれるデータについてのデータを記述しています。
+          次に説明するtitleなどが代表例ですが、今はそんなに深く考えなくて大丈夫です！</p>
+          <p class="text bold">・title要素・</p>
+          <p class="text">文字通り、タイトルです！こんな風に入れると、</p>
+          <p class="frame frame_first">&lt;title&gt;<br>はじめの一歩<br>&lt;/title&gt;</p>
+          <p class="text">こんな風にブラウザのタイトルバーに表示されます！</p>
+          <img class="img img_first" src="./first_step/3_2.png">
+          <p class="text bold">・body要素・</p>
+          <p class="frame frame_first">&lt;body&gt;<br><br>&lt;/body&gt;</p>
+          <p class="text">サンドウィッチに例えると、1番美味しいメインの具材の部分です！<br>
+          この部分に書かれたタイトルや段落が、Webページとして表示されます！</p>
+          <p class="text"><br>
+          さて、ここまでのことを復習するとこんな感じにまとめられます。</p>
+          <img class="img img_first" src="./first_step/3_3.png">
+          <p class="text">これからHTMLについて勉強すると、もっとたくさんの要素に出会うと思いますが、基本的にはこんな風に木が枝分かれしているような構造をしています。
+          この構造のことを、<span class="span_first">ツリー構造</span>といいます。特にCSSを使ってレイアウトやデザインを考えていく際にとても大事な
+        考え方なので、練習して徐々に慣れていきましょう！</p>
+        </div>
+      </div>
+      <div class="back_btn first_back">
+        <a href="./first_menu.html">
+        <p>メニューにもどる</p></a>
+      </div>
+    </div>
+    <footer>
+     <div class="container">
+       <img src="./1_removebg_b.png">
+     </div>
+   </footer>
+  </body>
+</html>
